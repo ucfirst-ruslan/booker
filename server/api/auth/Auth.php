@@ -23,10 +23,10 @@ class Auth extends Rest
 	/**
 	 * Login|change method
 	 *
-	 * @param $id
+	 * @param $params
 	 * @param $data
 	 */
-	protected function putAuth($id, $data)
+	protected function putAuth($params, $data)
 	{
 		if($data['email'] && $data['pass'])
 		{
@@ -42,9 +42,9 @@ class Auth extends Rest
 	}
 
 
-	protected function deleteAuth($id)
+	protected function deleteAuth($params)
 	{
-		$this->authModels->logOutUser($id[0]);
+		$this->authModels->logOutUser($params[0]);
 		View::sendData('success', ERR_009, 403);
 	}
 

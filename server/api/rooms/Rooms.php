@@ -37,7 +37,7 @@ class Rooms extends Rest
 	/**
 	 * Get all|one room(s)
 	 *
-	 * @param mixed | $id
+	 * @param mixed | $params
 	 */
 	public function getRooms($params)
 	{
@@ -70,12 +70,12 @@ class Rooms extends Rest
 		{
 			if($_POST['name'])
 			{
-				$id = $this->roomsModels->createRoom();
+				$params = $this->roomsModels->createRoom();
 			}
 
-			if (is_numeric($id))
+			if (is_numeric($params))
 			{
-				$data = $this->roomsModels->getOneRoom($id);
+				$data = $this->roomsModels->getOneRoom($params);
 				View::sendData('success', $data, 201);
 			}
 			else
@@ -91,17 +91,17 @@ class Rooms extends Rest
 	}
 
 	/**
-	 * @param $id
+	 * @param $params
 	 * @param $data
 	 * @return bool
 	 */
-	public function putRooms($id, $data)
+	public function putRooms($params, $data)
 	{
 		if ($this->userRole === 'admin')
 		{
-			if($data['name'] && $id[0])
+			if($data['name'] && $params[0])
 			{
-				$countRow = $this->roomsModels->updateRoom($id[0], $data['name']);
+				$countRow = $this->roomsModels->updateRoom($params[0], $data['name']);
 			}
 
 			if(0 < $countRow)
@@ -122,16 +122,16 @@ class Rooms extends Rest
 	}
 
 	/**
-	 * @param bool $id
+	 * @param bool $params
 	 * @return bool
 	 */
-	public function deleteRooms($id)
+	public function deleteRooms($params)
 	{
 		if ($this->userRole === 'admin')
 		{
-			if($id[0])
+			if($params[0])
 			{
-				$data = $this->roomsModels->deleteRoom($id[0]);
+				$data = $this->roomsModels->deleteRoom($params[0]);
 			}
 
 			if($data)

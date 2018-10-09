@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a2d7c5b2-dc73-4230-a5f7-c070821ae098" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/api/auth/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/auth/Auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/helpers/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/helpers/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rooms/Rooms.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rooms/Rooms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/users/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/users/Users.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,13 +89,13 @@
         <counts>
           <entry key="QUERY_PLAN/" value="1" />
           <entry key="htaccess" value="7" />
-          <entry key="php" value="83" />
+          <entry key="php" value="84" />
           <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="83" />
+          <entry key="PHP" value="84" />
           <entry key="Scratch" value="5" />
           <entry key="UML" value="1" />
           <entry key="htaccess" value="7" />
@@ -123,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/rooms/Rooms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="315">
+              <caret line="125" column="19" lean-forward="true" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
               <folding>
                 <element signature="e#6#32#0#PHP" expanded="true" />
                 <element signature="e#57#71#0#PHP" expanded="true" />
@@ -134,46 +135,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/rooms/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#6#32#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/auth/Auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#88#102#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/events/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#6#32#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/users/Users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="1870">
+              <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
               <folding>
                 <element signature="e#6#32#0#PHP" expanded="true" />
                 <element signature="e#56#70#0#PHP" expanded="true" />
@@ -182,28 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/users/index.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/auth/Auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding>
-                <element signature="e#6#32#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/users/.htaccess">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/helpers/Validator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="374">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -221,15 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/auth/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -239,7 +178,11 @@
       <find>ERR_004</find>
       <find>die</find>
       <find>startDay</find>
+      <find>$id</find>
     </findStrings>
+    <replaceStrings>
+      <replace>$params</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/libs</dir>
       <dir>$PROJECT_DIR$/libs/models</dir>
@@ -270,12 +213,12 @@
         <option value="$PROJECT_DIR$/libs/models/roomsModels.php" />
         <option value="$PROJECT_DIR$/libs/config.php" />
         <option value="$PROJECT_DIR$/libs/Rest.php" />
-        <option value="$PROJECT_DIR$/api/users/Users.php" />
-        <option value="$PROJECT_DIR$/api/rooms/Rooms.php" />
         <option value="$PROJECT_DIR$/api/events/Events.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9ffff878-1c77-47e0-9199-5065f7e1e24b/console.sql" />
         <option value="$PROJECT_DIR$/libs/models/eventsModels.php" />
         <option value="$PROJECT_DIR$/libs/helpers/Validator.php" />
+        <option value="$PROJECT_DIR$/api/users/Users.php" />
+        <option value="$PROJECT_DIR$/api/rooms/Rooms.php" />
         <option value="$PROJECT_DIR$/api/auth/Auth.php" />
       </list>
     </option>
@@ -462,12 +405,12 @@
       <workItem from="1538039604575" duration="30813000" />
       <workItem from="1538519685183" duration="592000" />
       <workItem from="1538568645282" duration="12315000" />
-      <workItem from="1538730644188" duration="55169000" />
+      <workItem from="1538730644188" duration="55745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145418000" />
+    <option name="totallyTimeSpent" value="145994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="510" y="23" width="1410" height="1107" extended-state="0" />
@@ -651,17 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/users/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#6#32#0#PHP" expanded="true" />
-            <element signature="e#56#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/users/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -675,14 +607,20 @@
     <entry file="file://$PROJECT_DIR$/api/users/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/rooms/Rooms.php">
+    <entry file="file://$PROJECT_DIR$/api/events/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="e#6#32#0#PHP" expanded="true" />
-            <element signature="e#57#71#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/auth/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -696,12 +634,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/events/index.php">
+    <entry file="file://$PROJECT_DIR$/api/users/Users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="1870">
+          <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
           <folding>
             <element signature="e#6#32#0#PHP" expanded="true" />
+            <element signature="e#56#70#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -717,20 +656,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/auth/index.php">
+    <entry file="file://$PROJECT_DIR$/api/rooms/Rooms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="315">
+          <caret line="125" column="19" lean-forward="true" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#32#0#PHP" expanded="true" />
+            <element signature="e#57#71#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/auth/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#88#102#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>

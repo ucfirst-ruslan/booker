@@ -34,11 +34,11 @@ class Users extends Rest
 	/*
 	 * Get User|s data
 	 */
-	public function getUsers($id)
+	public function getUsers($params)
 	{
-		if($id[0])
+		if($params[0])
 		{
-			$data = $this->usersModels->getOneUser($id[0]);
+			$data = $this->usersModels->getOneUser($params[0]);
 		}
 		else
 		{
@@ -67,12 +67,12 @@ class Users extends Rest
 
 		if($_POST['name'] && $_POST['email'] && $_POST['pass'])
 		{
-			$id = $this->usersModels->createUser();
+			$params = $this->usersModels->createUser();
 		}
 
-		if (is_numeric($id))
+		if (is_numeric($params))
 		{
-			$data = $this->usersModels->getOneUser($id);
+			$data = $this->usersModels->getOneUser($params);
 			View::sendData('success', $data, 201);
 		}
 		else
@@ -85,11 +85,11 @@ class Users extends Rest
 
 
 
-	public function putUsers($id, $data)
+	public function putUsers($params, $data)
 	{
-		if(!empty($data) && $id[0])
+		if(!empty($data) && $params[0])
 		{
-			$countRow = $this->usersModels->updateUser($id[0], $data);
+			$countRow = $this->usersModels->updateUser($params[0], $data);
 		}
 
 		if(0 < $countRow)
@@ -104,11 +104,11 @@ class Users extends Rest
 		return true;
 	}
 
-	public function deleteUsers($id)
+	public function deleteUsers($params)
 	{
-		if($id[0])
+		if($params[0])
 		{
-			$data = $this->usersModels->inactiveUser($id[0]);
+			$data = $this->usersModels->inactiveUser($params[0]);
 		}
 
 		if($data === 'null')
