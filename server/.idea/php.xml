@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="." />
+      <path value="/Applications/MAMP/bin/php/php7.0.15/lib/php" />
+      <path value="$PROJECT_DIR$/../../book/vendor/composer" />
+      <path value="$PROJECT_DIR$/../../book/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/../../book/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/../../book/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/../../book/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/../../book/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/../../book/vendor/joshcam/mysqli-database-class" />
+      <path value="$PROJECT_DIR$/../../book/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/../../book/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/../../book/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/../../book/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/../../book/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/../../book/vendor/symfony/translation" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+</project>
