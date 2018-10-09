@@ -1,8 +1,6 @@
 <?php
 /**
  * User 10: ruslan
- * Date: 20.09.18
- * Time: 15:12
  */
 
 namespace api\auth;
